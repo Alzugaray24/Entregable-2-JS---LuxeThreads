@@ -1,0 +1,56 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilos de tarjetas */
+.card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.producto-imagen {
+    object-fit: contain; 
+}
+
+/* Estilos de botones */
+button {
+    padding: 8px 12px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos del catálogo y carrito */
+#catalogo, #carrito {
+    margin-top: 20px;
+}
+
+/* Estilos del total en el carrito */
+#carrito p:last-child {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
